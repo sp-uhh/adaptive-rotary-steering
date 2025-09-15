@@ -13,9 +13,11 @@ export async function renderRecordedDatasetPane() {
   The speakers read out segments from the Rainbow Passage [Fairbanks'60] while randomly moving in the frontal plane of the array.
   We split the Rainbow Passage into 3 segments of roughly equal length and permute these among all three speakers, yielding 3 recordings of about 30\,s each in total.
   </p>
-    <label for="recSelect" class="block-text">Choose recording:</label>
+  <p class="block-text">
+    <label for="recSelect">Choose recording:</label>
     <select id="recSelect">
     </select>
+  </p>
     <br><br>
     <table class="metric-table" id="recordedMetrics"></table>
   `;

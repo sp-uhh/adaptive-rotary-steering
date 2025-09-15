@@ -13,9 +13,11 @@ export async function renderSyntheticDatasetPane() {
   We use the LibriSpeech corpus [Panayotov'15] and pair utterances according to Libri3Mix [Cosentino'20].
   The movement of the speakers is modeled via randomized, sinusoidal trajectories from by Diaz et al. [Diaz'20], which are able to generate a wide range of diverse motion patterns.
   </p>
-    <label for="exampleSelect" class="input-label">Choose example index:</label>
+  <p class="block-text">
+    <label for="exampleSelect">Choose example index:</label>
     <select id="exampleSelect">
     </select>
+    </p>
     <br><br>
     <div class="media-row">
       <video id="myVideo" width="320" controls>
